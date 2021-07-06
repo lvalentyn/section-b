@@ -1,0 +1,14 @@
+.handle {
+    padding:70px 0 60px;
+    color: $color_secondary;
+    text-align: center;
+    &__title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 50px;
+    }
+    &__descr {
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+}

@@ -1,0 +1,23 @@
+.webapp {
+    padding: 30px 0 30px;
+    background-color: #eaeaea;
+    color: $color-secondary;
+    text-align: center;
+    &__title {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+    &__text {
+        display: flex;
+        column-gap: 30px;
+        @media (max-width: $md3 + px) {
+           flex-direction: column;
+        }
+    }
+    &__descr {
+        flex-basis: 100%;
+        font-size: 1.8rem;
+        line-height: 2.5rem;
+    }
+}
